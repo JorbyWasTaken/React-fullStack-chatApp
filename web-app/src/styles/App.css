@@ -1,0 +1,159 @@
+:root{
+   --main-backround: rgb(245, 245, 245);  
+    --main-accent-colors:rgb(172, 207, 255); 
+
+   /* --main-backround: rgb(32, 32, 32); 
+   --main-accent-colors:hsl(345deg 100% 47%); */
+   /* rgb(128, 177, 247) */
+}
+
+.App {
+  text-align: center;
+}
+.main-body{
+  /* transition: 0.3s; */
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-color: var(--main-backround);
+}
+
+/* SIDE NAV CSS */
+.side-nav-container{
+  /* transition: 0.3s; */
+  position: fixed;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100px;
+  margin-right: 100px;
+  background-color: rgb(128, 177, 247);
+  /* background-color: hsl(345deg 100% 47%); */
+  /* background-color:var(--main-accent-colors); */
+  /* background-color: #990011FF; */
+  position: absolute;
+}
+.side-nav-container a{
+text-decoration: none;
+color: white;
+margin-top: 20px;  
+text-align: center;
+padding-top: 5px;
+padding-bottom: 12px;
+font-size: 25px;
+}
+
+.side-nav-container span{
+  font-size: 20px;
+  display: block;
+  font-weight: bold;
+}
+
+ @media (max-width: 1500px) {
+.main-body{
+    margin-left: 200px;
+}
+.side-nav-container{
+    width: 200px;  
+}
+  .side-nav-container hr{
+    border-style: solid;
+    border-width: 1px;
+    width: 90%;
+    border-radius: 100px;
+    border-color: white;
+  }
+  .side-nav-container span{
+    display:none;
+    font-weight: bold;
+  }
+}
+@media (max-width: 850px) {
+  .main-body{
+    padding: 0px;
+    margin-left: 100px;
+  }
+  .side-nav-container span{
+    display: none;
+    font-weight: bold;
+  }
+
+  .side-nav-container{
+    width: 100px;
+  }
+
+.side-nav-container hr{
+  display: none;
+}
+}
+  
+  @media (max-width: 600px) {
+    .main-body{
+      margin-left: 0px;
+    } 
+    .side-nav-container{
+      width: 0;
+    }
+    .side-nav-container a{
+      width: 0;
+      display: none;
+    
+  }
+  .side-nav-container h1{
+    width: 0;
+    display: none;
+  
+}
+    }
+    .friend-container{
+      color: white;
+      font-weight: bold;
+      height: 200px;
+      }
+.friend-container h1{
+      height: 25px;
+  }
+  .friend-container button{
+    cursor: pointer;
+    color: white ;
+    font-weight: bold;
+    /* background-color: rgb(172, 207, 255); */
+    background-color: var(--main-accent-colors);
+border-radius: 3px;
+    border:none;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    width: 100%;
+    transition: 0.2s;
+}
+.friend-btns{
+margin-right: 4px;
+margin-left: 4px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 250px;
+}.friend-container button:hover{
+ color: rgb(138, 187, 255);
+  }
+
+
+/* .test{
+  color: pink;
+}
+.nav{
+  border: solid pink;
+  text-align: center;
+  font-weight: bolder;
+} */
+.Home{
+  background-color: grey;
+
+}
+.hed{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}

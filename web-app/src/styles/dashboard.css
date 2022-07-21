@@ -1,0 +1,59 @@
+.log-out-btn{
+    padding: 8px;
+    /* position: absolute; */
+    margin: 0;
+    display: flex;
+    width: 50px;
+    border-radius: 100px 0px 0px 100px;
+    border-right: 0;
+    background-color: black;
+    border-style: solid;
+    float: right;
+    /* margin-right: 10px; */
+    color: white;
+}
+.name{
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+    width: 125px;
+    margin-right: 15px;
+    border-radius: 100px;
+    background-color: white;
+    border: solid 2px var(--main-accent-colors); 
+    
+}
+.nav-bar-container{
+    /* position: fixed; */
+    padding: 10px;
+    border-style: none !important;
+    border-right: 0;
+    border-left: 0;
+    background-color: white;
+    width: 100%;
+    border-style: solid;
+    display: flex;
+    box-shadow: 0px 0px 4px grey;
+
+}
+.nav-bar-container a{
+    font-size: 25px;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    width: 20%;
+    cursor: pointer;
+    background-color: white;
+    display: block; 
+    transition: 0.2s; 
+}
+
+.nav-bar-container a:hover{
+    color: var(--main-accent-colors);
+}  
+.room-name{
+    text-align: center;
+    font-weight: bold;
+    
+}

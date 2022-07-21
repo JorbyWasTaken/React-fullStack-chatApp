@@ -1,0 +1,123 @@
+
+/* body{
+    margin: 0;
+    padding: 0;
+} */
+.log-outer-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 140px;
+}
+
+.email-pass-container{
+    padding: 10px;
+    margin-top: 1px;
+    
+}
+.header-log{
+    text-align: center;
+    margin: 60px;
+}
+.sub-btn-log{
+    background: rgb(142, 189, 255);
+    /* background: hsl(340deg 100% 32%); */
+
+    border: none;
+    border-radius: 12px;
+    /* background-color: rgb(171, 171, 171);
+    color: white; */
+    font-weight: bold;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    outline-offset: 4px;
+    /* box-shadow: rgb(117, 117, 117) 0px 8px; */
+}
+
+.sub-btn-log:active .sub-btn-txt{
+transition: 0.08s;
+    transform: translateY(-1px);
+}
+.sub-btn-txt{
+   background: rgb(172, 207, 255);
+    /* background: hsl(345deg 100% 47%); */
+    color: white;
+    padding: 10px 42px;
+    border-radius: 12px;
+    display: block;
+    transform: translateY(-8px);
+
+}
+
+
+.clear-btn{
+    text-align: center;
+    height: 50px;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+
+.form-container-log{
+    align-items: center;
+    box-shadow: grey 0px 0px 8px ;
+    border-radius: 8px;
+    background-color: white;
+    padding: 75px;
+    width: 300px;
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.form-container-log h1{
+   font-size: 30px;
+   padding: 0;
+   margin-top: 0px;
+   margin-bottom: -35px;
+
+}
+.email-box-log{
+    text-align: center;
+    border-style: solid;
+    border-color: grey;
+    border-width: 1.5px; 
+    border-radius: 5px;
+    width: 92%;
+    padding: 10px;
+}
+
+.password-box-log{ 
+    text-align: center;
+  
+    border-style: solid;
+    border-color: grey;
+    border-width: 1.5px; 
+    border-radius: 5px;
+    margin-top: 5px;
+    width: 92%;
+    padding: 10px;
+    margin-bottom: 25px;
+} 
+.register-text{
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(153, 192, 247);
+    /* color: hsl(345deg 100% 47%); */
+}
+#capMessage {
+    font-weight: bold;
+    transition: 2s;
+}
+@keyframes capOn{
+from{opacity: 0;}
+to{opacity: 1;}
+}
+
+@keyframes capOff{
+   from{opacity: 1;}
+   to{opacity: 0;}
+}
